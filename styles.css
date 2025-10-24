@@ -1,0 +1,128 @@
+body {
+        font-family: cursive;
+        background-color: white;
+    }
+
+    nav {
+        border-bottom: 1px solid gray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+    }
+
+    nav a {
+        color: gray;
+        margin-left: 20px;
+    }
+
+    nav a:hover {
+        text-decoration: line-through;
+    }
+
+    header {
+        background-color: #eeeeee;
+        text-align: center;
+        padding: 40px 10px;
+        border-bottom: 1px solid gray;
+    }
+
+    .profile {
+        width: 200px;
+        height: 200px;
+        border-radius: 25%;
+        object-fit: cover;
+    }
+
+    .obshiy {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .sections {
+        margin-top: 40px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: white;
+    }
+
+    th, td {
+        border: 1px solid #b3b2b2;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #333333;
+        color: white;
+    }
+
+    .ssilka {
+        color: #838383;
+    }
+    
+    .ssilka:hover {
+        text-decoration: line-through;
+    }
+
+    .otzivi {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .cartochki {
+        background-color: white;
+        border: 1px solid #cac9c9;
+        border-radius: 10px;
+        padding: 15px;
+        flex: 1;
+        min-width: 250px;
+    }
+
+    form {
+        background-color: white;
+        border: 1px solid #c6c4c4;
+        border-radius: 10px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    label {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    button {
+        margin-top: 15px;
+        padding: 10px 20px;
+        background-color: #707070;
+        border-radius: 5px;
+        color: white;
+    }
+
+    button:hover {
+        background-color: #434343;
+    }
+
+    footer {
+        border-top: 1px solid gray;
+        text-align: center;
+        padding: 20px;
+        color: black;
+        background-color: #eeeeee;
+        margin-top: 40px;
+    }
